@@ -130,10 +130,10 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 
 - For tSNE with 2 numbers of components, the activities are not separated.
 
-<a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
-
 ### Generalizing Developed Models to all Datasets
 - Due to memory issues, I was only able to generalize the developed Logistic Regression and Decision Tree models to the combined dataset (consists of 30 smart homes). The accuracy of Decision Tree is 92.3% and the run time is 294 sec.
+
+<a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
 
 ## Conclusions
 ### Concluding Remarks
