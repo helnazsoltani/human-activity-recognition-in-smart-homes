@@ -162,7 +162,7 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 ### System Requirements
 - Python 3.7.3
 - Required libraries for running EDA code: numpy, pandas, glob, time, datetime, matplotlib, seaborn, mpl_toolkits
-- Required libraries for running Machine Learning code: pandas, time, matplotlib, seaborn ,sklearn, xgboost, imblearn
+- Required libraries for running Machine Learning code: pandas, time, matplotlib, seaborn, sklearn, xgboost, imblearn
 - All codes have been running on AWS Sagemaker with 4CPUs.
 
 <a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
