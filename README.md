@@ -46,9 +46,9 @@ HAR have many applications, which some of the important ones can be listed as:
 <a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
 
 ## Dataset
-- The datasets and smart homes' layout can be found in [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data). However, I put a sample of 50k observations from one of them in the [data](https://github.com/helnazsoltani/human-activity-recognition-in-smarthomes/tree/master/data) folder (I kept the file name according to the original file for the sake of consistency).
-- The datasets reflect the info from motion sensors, door sensors, and light sensors in 30 smarthomes which have recorded the activity of the volunteer residents.
-- There exist 11 sensors in each dataset, each of them is corresponding to a location in smarthome.
+- The datasets and smart homes' layout can be found in [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data). However, I put a sample of 50k observations from one of them in the [data](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/tree/master/data) folder (I kept the file name according to the original file for the sake of consistency).
+- The datasets reflect the info from motion sensors, door sensors, and light sensors in 30 smart homes which have recorded the activity of the volunteer residents.
+- There exist 11 sensors in each dataset, each of them is corresponding to a location in smart home.
 - Most of the sensor data were collected continuously for two months while residents performed their normal routines, though some of the them contain labels for extended time periods.
 - The raw data was processed in the form of feature vectors which was generated using a sliding window of 30 sensor events.
 - Combining all 30 smart homes, the total number of observations are 7M+ with 45 classes of activity.
@@ -136,16 +136,16 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 
 ## Conclusions
 ### Concluding Remarks
-- The predictive model is able to recognize human activity in a smarthome with 97% accuracy.
+- The predictive model is able to recognize human activity in a smart home with 97% accuracy.
 - The prediction error is for the categories that have not been defined clearly.
 - The data was processed fairly well by domain experts.
 
 ### Challenges
-- I planned to compare all the models on the combined 30-smarthome dataset for generalization purposes. However, I could not increase my AWS memory to run Spark, therefore, I was able to check the performance for Logistic Regression and Decision Tree models only.
+- I planned to compare all the models on the combined 30-smart-home dataset for generalization purposes. However, I could not increase my AWS memory to run Spark, therefore, I was able to check the performance for Logistic Regression and Decision Tree models only.
 - There are some activities that have not been predefined, the model may be more predictive if it gets learnt in an unsupervised manner. 
 
 ### Future Plans
-- To generalize and improve the model to the 30-smarthome dataset which makes my predictive model independent of floorplan
+- To generalize and improve the model to the 30-smart-home dataset which makes my predictive model independent of floorplan
 - To develop a neural network model
 - To approach the problem unsupervisingly
 - To generalize the model to wearable sensors such as smart device and smart watch
