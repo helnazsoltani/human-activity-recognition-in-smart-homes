@@ -41,7 +41,7 @@ def load_data_all(path):
             print('The features do not match in these two dataframe.')
     return df
 
-path = input('Insert The directory where your dataset is located: ')
+path = input('Enter dataset directory: ')
 df = load_data(str(path))
       
 def df_specs(df):

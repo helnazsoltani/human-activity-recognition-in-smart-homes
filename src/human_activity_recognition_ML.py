@@ -37,7 +37,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-path = input('Insert The directory where your dataset is located: ')
+path = input('Enter dataset directory: ')
 df = load_data(str(path))
 
 def X_y(df):
