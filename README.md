@@ -60,7 +60,7 @@ HAR have many applications, which some of the important ones can be listed as:
 
 ### Data Preparation
 The below steps have been taken in order to prepare the data:
-- Data cleaning
+- Data cleaning issues
     - Duplicated entries
     - Null values
     - Incorrect data type
@@ -70,6 +70,7 @@ The below steps have been taken in order to prepare the data:
 - Saving the cleaned dataframe in a csv file
 
 ### Exploratory Data Analysis
+These findings represent some of the selected EDAs:
 - Number of observations per activity:
     - A great majority of activities belong to 'Other Activity'.
     - The rest of activities (which were not shown in the below plot) have less than 1% distribution.
@@ -80,13 +81,13 @@ The below steps have been taken in order to prepare the data:
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/last_sensor_event_seconds.png)
 
-- Window duration for the first 15 activities with highest frequency
+- Window duration (time duration of the 30 event sliding window) for the first 15 activities with highest frequency
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/window_duration_seconds_15.png)
 
-- Identifying multicollinear features
+- Identifying multicollinear features such as 'lastSensorEventHours' and 'lastSensorEventSeconds'
 - Scatterplot 'sensorElTime-sensorname' and 'sensorCount-sensorname' for all sensors
-- 3d-plot 'sensorElTime-sensorname', 'sensorCount-sensorname', and 'activity'.
+- 3d-plot 'sensorElTime-sensorname', 'sensorCount-sensorname', and 'activity'
 
 <a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
 
