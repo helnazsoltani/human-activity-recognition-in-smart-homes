@@ -103,14 +103,17 @@ I developed the below models for one dataset:
 - Multi-layer perceptron
 
 ### Performance Metrics
-- Accuracy metric to evaluate how the model predicts the activity
-- Confusion matrix to capture which activities were mislabeled in my model
+- Accuracy metric to evaluate how the model predicts the activity:
+    - Among all of the above models, Random Forest, XGBoosting, and Decision Tree performed the best.
+    
+- Confusion matrix to capture which activities were mislabeled in my model:
+    - Reviewing the confusion matrix of the Random Forest, the majority of the misclassified predictions are related to the non-defined class (Other Activity).
+    
 - Elapsed run time
+    - Comparing the elapsed run time of the 3 above-mentioned models, I decided to pursue further study on Random Forest. 
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/models_accuracy_runtime.png)
 
-Among all of the above models, Random Forest, XGBoosting, and Decision Tree performed the best.
-Comparing the elapsed run time of the 3 above-mentioned models, I decided to pursue further study on Random Forest as it runs way faster compared to the other two.
 
 #### Feature importance plot for Random Forest
 
@@ -163,7 +166,7 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 - Python 3.7.3
 - Required libraries for running EDA code: numpy, pandas, glob, time, datetime, matplotlib, seaborn, mpl_toolkits
 - Required libraries for running Machine Learning code: pandas, time, matplotlib, seaborn, sklearn, xgboost, imblearn
-- All codes have been running on AWS Sagemaker with 4CPUs.
+- All codes have been running on AWS Sagemaker with 4 CPUs.
 
 <a href="#Human-Activity-Recognition-in-Smart-Homes">Back to top</a>
 
