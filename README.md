@@ -50,7 +50,7 @@ HAR have many applications, which some of the important ones can be listed as:
 - The datasets reflect the info from motion sensors, door sensors, and light sensors in 30 smart homes which have recorded the activity of the volunteer residents.
 - There exist 11 sensors in each dataset, each of them is corresponding to a location in smart home.
 - Most of the sensor data were collected continuously for two months while residents performed their normal routines, though some of the them contain labels for extended time periods.
-- The raw data was processed in the form of feature vectors which was generated using a sliding window of 30 sensor events.
+- The raw data was processed in the form of feature vectors using a sliding window of 30 sensor events.
 - Combining all 30 smart homes, the total number of observations are 7M+ with 45 classes of activity.
 - The 1st smart home which I considered for EDA and initial modeling has 320k+ observations and 35 classes of activity, then I generalized the model to the 30-smart-home dataset.
 
