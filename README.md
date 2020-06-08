@@ -144,14 +144,15 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 
 ## Project Files
 ### Deliverables
-- [EDA python code](src/EDA.py)
-- [Machine learning modeling python code](src/ML.py)
-- [Presentation](src/presentation.pdf)
+- [EDA python code](src/human_activity_recognition_EDA.py)
+- [Machine learning modeling python code](src/human_activity_recognition_ML.py)
+- [Presentation](to be uploaded)
 
 ### System Requirements
 - Python 3.7.3
 - Required libraries for running EDA code: numpy, pandas, glob, time, datetime, matplotlib, seaborn, mpl_toolkits
 - Required libraries for running Machine Learning code: pandas, time, matplotlib, seaborn ,sklearn, xgboost, imblearn
+- All codes have been running on AWS Sagemaker with 4CPUs.
 
 <a href="#Human-Activity-Recognition-in-Smarthomes">Back to top</a>
 
@@ -160,4 +161,3 @@ This work is completed as a part of fulfillment for the [Galvanize DSI](https://
 I would like to thank [Hamid](https://github.com/Hamidmol), [Tomas](https://github.com/tomasbielskis), and the entire Galvanize team for their support and guidance during the course of study.
 
 <a href="#Human-Activity-Recognition-in-Smarthomes">Back to top</a>
-
