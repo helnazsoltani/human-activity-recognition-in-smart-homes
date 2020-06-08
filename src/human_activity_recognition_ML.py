@@ -37,9 +37,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-path = 'C:/Users/dell/data/casas-dataset/csh101/csh101.ann.features.csv'
-
-# path = input('Insert The directory where your dataset is located: ')
+path = input('Insert The directory where your dataset is located: ')
 df = load_data(str(path))
 
 def X_y(df):

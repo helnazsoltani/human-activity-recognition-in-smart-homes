@@ -41,9 +41,7 @@ def load_data_all(path):
             print('The features do not match in these two dataframe.')
     return df
 
-path = 'C:/Users/dell/data/casas-dataset/csh101/csh101.ann.features.csv'
-
-# path = input('Insert The directory where your dataset is located: ')
+path = input('Insert The directory where your dataset is located: ')
 df = load_data(str(path))
       
 def df_specs(df):
