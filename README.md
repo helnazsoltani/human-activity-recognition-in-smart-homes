@@ -81,7 +81,7 @@ These findings represent some of the selected EDAs:
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/last_sensor_event_seconds.png)
 
-- Window duration (time duration of the 30 event sliding window) for the first 15 activities with highest frequency
+- Window duration (time duration of the 30 event sliding window) for the first 15 activities with highest frequency: The activities with the highest majority seem to have smaller window duration.
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/window_duration_seconds_15.png)
 
