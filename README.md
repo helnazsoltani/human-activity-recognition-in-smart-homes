@@ -73,7 +73,7 @@ The below steps have been taken in order to prepare the data:
 These findings represent some of the selected EDAs:
 - Number of observations per activity:
     - A great majority of activities belong to 'Other Activity'.
-    - The rest of activities (which were not shown in the below plot) have less than 1% distribution.
+    - The rest of activities (which are not shown in the below plot) have less than 1% distribution.
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/activity_distribution.png)
 
