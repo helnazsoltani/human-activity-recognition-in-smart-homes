@@ -160,7 +160,7 @@ I applied PCA and tSNE for dimensionality reduction purposes.
 ### Deliverables
 - [EDA python code](src/human_activity_recognition_EDA.py)
 - [Machine learning modeling python code](src/human_activity_recognition_ML.py)
-- [Presentation](to be uploaded)
+- [Presentation](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/HAR_smarthomes.pdf)
 
 ### System Requirements
 - Python 3.7.3
