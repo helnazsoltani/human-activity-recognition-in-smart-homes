@@ -109,11 +109,12 @@ I developed the below models for one dataset:
 - Confusion matrix to capture which activities were mislabeled in my model:
     - Reviewing the confusion matrix of the Random Forest, the majority of the misclassified predictions are related to the non-defined class (Other Activity).
     
+![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/confusion_matrix_rfc.png)
+    
 - Elapsed run time
     - Comparing the elapsed run time of the 3 above-mentioned models, I decided to pursue further study on Random Forest. 
 
 ![image](https://github.com/helnazsoltani/human-activity-recognition-in-smart-homes/blob/master/figures/models_accuracy_runtime.png)
-
 
 #### Feature importance plot for Random Forest
 
